@@ -1,0 +1,66 @@
+{
+    "menu_1": 
+      [
+        {"file": "page-01.php","title": "Introduzione", "order": "1", "nextFile":"quiz-01.php", "menu":"menu_1"},
+        {"file": "quiz-01.php","title": "Introduzione-Quiz", "order": "1", "nextFile":"page-02.php", "menu":"menu_1"},
+        {"file": "page-02.php","title": "Primo programma", "order": "2", "nextFile":"quiz-02.php", "menu":"menu_1"},
+        {"file": "quiz-02.php","title": "Primo programma-Quiz", "order": "2", "nextFile":"page-03.php", "menu":"menu_1"},
+        {"file": "page-03.php","title": "Variabili", "order": "3", "nextFile":"quiz-03.php", "menu":"menu_1"},
+        {"file": "quiz-03.php","title": "Variabili-Quiz", "order": "3", "nextFile":"page-box.php", "menu":"menu_1"},
+        {"file": "page-box.php","title": "Scelta", "order": "4", "nextFile":"page-box-submit.php", "menu":"menu_1"}
+      ],
+    "menu_2":
+    [
+        {"file": "page-04.php","title": "Tipi di dato", "order": "4",  "nextFile":"quiz-04.php", "menu":"menu_2"},
+        {"file": "quiz-04.php","title": "Tipi di dato-Quiz", "order": "4",  "nextFile":"page-05.php", "menu":"menu_2"},
+        {"file": "page-05.php","title": "Conversioni", "order": "5",  "nextFile":"quiz-05.php", "menu":"menu_2"},
+        {"file": "quiz-05.php","title": "Conversioni-Quiz", "order": "5", "nextFile":"page-06.php", "menu":"menu_2"},
+        {"file": "page-06.php","title": "Istruzione if", "order": "6", "nextFile":"quiz-06.php", "menu":"menu_2"},
+        {"file": "quiz-06.php","title": "Istruzione if-Quiz", "order": "6", "nextFile":"page-07.php", "menu":"menu_2"},
+        {"file": "page-07.php","title": "Ciclo for", "order": "7", "nextFile":"quiz-07.php", "menu":"menu_2"},
+        {"file": "quiz-07.php","title": "Ciclo for-Quiz", "order": "7", "nextFile":"page-08.php", "menu":"menu_2"},
+        {"file": "page-08.php","title": "Liste", "order": "8", "nextFile":"quiz-08.php", "menu":"menu_2"},
+        {"file": "quiz-08.php","title": "Liste-Quiz", "order": "8", "nextFile":"page-09.php", "menu":"menu_2"},
+        {"file": "page-09.php","title": "Dizionari", "order": "9",  "nextFile":"quiz-09.php", "menu":"menu_2"},
+        {"file": "quiz-09.php","title": "Dizionari-Quiz", "order": "9", "nextFile":"page-10.php", "menu":"menu_2"},
+        {"file": "page-10.php","title": "Funzioni", "order": "10", "nextFile": "quiz-10.php", "menu":"menu_2"},
+        {"file": "quiz-10.php","title": "Funzioni-Quiz", "order": "10", "nextFile": "page-survey.php", "menu":"menu_2"},
+        {"file": "page-survey.php","title": "Survey", "order": "11", "nextFile": "", "menu":"menu_2"}
+    ],
+    "menu_3": 
+      [
+        {"file": "page-06.php","title": "Istruzione if", "order": "4",  "nextFile":"quiz-06.php", "menu":"menu_3"},
+        {"file": "quiz-06.php","title": "Istruzione if-Quiz", "order": "4", "nextFile":"page-07.php", "menu":"menu_3"},
+        {"file": "page-07.php","title": "Ciclo for", "order": "5", "nextFile":"quiz-07.php", "menu":"menu_3"},
+        {"file": "quiz-07.php","title": "Ciclo for-Quiz", "order": "5",  "nextFile":"page-04.php", "menu":"menu_3"},
+        {"file": "page-04.php","title": "Tipi di dato", "order": "6",  "nextFile":"quiz-04.php", "menu":"menu_3"},
+        {"file": "quiz-04.php","title": "Tipi di dato-Quiz", "order": "6",  "nextFile":"page-05.php", "menu":"menu_3"},
+        {"file": "page-05.php","title": "Conversioni", "order": "7",  "nextFile":"quiz-05.php", "menu":"menu_3"},
+        {"file": "quiz-05.php","title": "Conversioni-Quiz", "order": "7",  "nextFile":"page-08.php", "menu":"menu_3"},
+        {"file": "page-08.php","title": "Liste", "order": "8",  "nextFile":"quiz-08.php", "menu":"menu_3"},
+        {"file": "quiz-08.php","title": "Liste-Quiz", "order": "8", "nextFile":"page-09.php", "menu":"menu_3"},
+        {"file": "page-09.php","title": "Dizionari", "order": "9", "nextFile":"quiz-09.php", "menu":"menu_3"},
+        {"file": "quiz-09.php","title": "Dizionari-Quiz", "order": "9", "nextFile":"page-10.php", "menu":"menu_3"},
+        {"file": "page-10.php","title": "Funzioni", "order": "10", "nextFile": "quiz-10.php", "menu":"menu_3"},
+        {"file": "quiz-10.php","title": "Funzioni-Quiz", "order": "10", "nextFile": "page-survey.php", "menu":"menu_3"},
+        {"file": "page-survey.php","title": "Survey", "order": "11", "nextFile": "", "menu":"menu_3"}
+      ],
+    "menu_4": 
+      [
+        {"file": "page-08.php","title": "Liste", "order": "4",  "nextFile":"quiz-08.php", "menu":"menu_4"},
+        {"file": "quiz-08.php","title": "Liste-Quiz", "order": "4", "nextFile":"page-09.php", "menu":"menu_4"},
+        {"file": "page-09.php","title": "Dizionari", "order": "5", "nextFile":"quiz-09.php", "menu":"menu_4"},
+        {"file": "quiz-09.php","title": "Dizionari-Quiz", "order": "5", "nextFile":"page-04.php", "menu":"menu_4"},
+        {"file": "page-04.php","title": "Tipi di dato", "order": "6",  "nextFile":"quiz-04.php", "menu":"menu_4"},
+        {"file": "quiz-04.php","title": "Tipi di dato-Quiz", "order": "6",  "nextFile":"page-05.php", "menu":"menu_4"},
+        {"file": "page-05.php","title": "Conversioni", "order": "7",  "nextFile":"quiz-05.php", "menu":"menu_4"},
+        {"file": "quiz-05.php","title": "Conversioni-Quiz", "order": "7",  "nextFile":"page-06.php", "menu":"menu_4"},
+        {"file": "page-06.php","title": "Istruzione if", "order": "8",  "nextFile":"quiz-06.php", "menu":"menu_4"},
+        {"file": "quiz-06.php","title": "Istruzione if-Quiz", "order": "8", "nextFile":"page-07.php", "menu":"menu_4"},
+        {"file": "page-07.php","title": "Ciclo for", "order": "9", "nextFile":"quiz-07.php", "menu":"menu_4"},
+        {"file": "quiz-07.php","title": "Ciclo for-Quiz", "order": "9",  "nextFile":"page-10.php", "menu":"menu_4"},
+        {"file": "page-10.php","title": "Funzioni", "order": "10", "nextFile": "quiz-10.php", "menu":"menu_4"},
+        {"file": "quiz-10.php","title": "Funzioni-Quiz", "order": "10", "nextFile": "page-survey.php", "menu":"menu_4"},
+        {"file": "page-survey.php","title": "Survey", "order": "11", "nextFile": "", "menu":"menu_4"}
+      ]
+  }

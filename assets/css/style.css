@@ -1,0 +1,42 @@
+.b-divider {
+    height: 16rem;
+  }
+
+  body{
+    font-size: 1.3rem;
+  }
+
+  /* BOXES */
+
+  .box_container{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 100px auto;
+  }
+
+  .box_container .box{ /* position of every box */
+    position:relative;
+    width: calc(400px - 30px);
+    height: calc(350px - 30px);
+    background: #e4f3fe;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  .box_container .box .img_box {
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+  .box_container .box .box_content {
+    position: relative;
+    top:10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
